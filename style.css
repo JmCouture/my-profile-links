@@ -1,0 +1,156 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid green;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.info h2 {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.info .location {
+    color: #85e085;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.info .description {
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;  
+}
+
+.github-icon {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.github-icon:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+.whatsapp-icon {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+    background-color: green;
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+.facebook-icon {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.facebook-icon:hover {
+    background-color: rgb(7, 55, 214);
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+.x-icon {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    transition: background-color 0.3s ease; 
+}
+
+.x-icon:hover{
+    background-color: rgb(12, 12, 12);
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+}
+
+.instagram-icon {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.instagram-icon:hover {
+    background-color: rgb(205, 72, 30);
+    color: white;
+    border: 1px solid white;
+    font-weight: bolder;
+}
